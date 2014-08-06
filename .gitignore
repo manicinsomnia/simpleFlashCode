@@ -9,19 +9,3 @@ bin-release/
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important
 # information for Eclipse / Flash Builder.
-
-# Frame 1
-var myNum = 0;
-
-# Frame 3
-label ‘loop’
-
-# Frame - at loop point
-myNum++;
-trace(myNum)
-if (myNum == 3){
-    stop();
-}
-
-#Frame - end
-gotoAndPlay('loop');
